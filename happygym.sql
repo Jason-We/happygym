@@ -36,6 +36,7 @@ DROP TABLE IF EXISTS `match`;
 CREATE TABLE `match` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `xm_name` varchar(50) NOT NULL,
+  `yjs`   varchar(1) NOT NULL,
   `p_no1` varchar(50) NOT NULL,
   `p_no2` varchar(50) NOT NULL,
   `p_no3` varchar(50) NOT NULL,
